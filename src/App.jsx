@@ -1,6 +1,19 @@
 import "./App.css";
+import Header from "./components/layout/Header";
+import Main from "./components/layout/Main";
+import Footer from "./components/layout/Footer";
+import Home from "./src/home/Home";
+
 function App() {
-  return <h1>Haikus</h1>;
+  return (
+    <>
+      <Header />
+      <Main>
+        <Home/>
+      </Main>
+      <Footer />
+    </>
+  );
 }
 
 export default App;
