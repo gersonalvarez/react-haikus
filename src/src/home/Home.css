@@ -1,0 +1,9 @@
+.H4{
+    font-family: var(--fuente-texto);
+    border-bottom: 2px solid var(--color-bordes);
+}
+.contenedorTarjetas {
+    display: grid;
+    justify-content: center;
+    margin: 30px;
+}
