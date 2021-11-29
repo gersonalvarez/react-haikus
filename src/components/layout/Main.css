@@ -3,7 +3,11 @@
     font-family: var(--fuente-texto);
     border-bottom: 2px solid var(--color-bordes);
   }
-  
+
+.Inicio{
+  text-decoration: none;
+  color: black;
+}  
 /* .subtitulo{
     font-family: var(--fuente-texto);
     border-bottom: 2px solid var(--color-bordes);
