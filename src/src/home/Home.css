@@ -3,7 +3,26 @@
     border-bottom: 2px solid var(--color-bordes);
 }
 .contenedorTarjetas {
+    margin: 0px;
     display: grid;
     justify-content: center;
-    margin: 30px;
+    justify-items: center;
+    
+    width: 100%;
+}
+
+@media (min-width: 600px)  {
+    .contenedorTarjetas {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2px 2px;
+        
+    }
+}
+@media (min-width: 1024px)  {
+    .contenedorTarjetas {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2px 2px;
+        
+    }
+
 }

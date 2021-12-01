@@ -19,12 +19,13 @@ const Tarjeta = ({ imagen, fotoDePerfil, NombreDelHaiku, haiku }) => {
 
 
   return (
-    <div>
+    <div className = "ventana">
       <div className="imagenYHaiku" onClick={cambiarVisibilidad}>
         <p className="Haiku" style={{ display: invisible ? "none" : "block" }}> {haiku} </p>
 
         <motion.img src={imagen} alt="/" className="imagenP" whileTap={{ scale: 0.8 }} />
       </div>
+
       <div className="cuerpoTarjeta">
         <div className="fotoYTituloH">
           <img src={fotoDePerfil} alt="fotoDePerfil" className="fotoDePerfil" />
