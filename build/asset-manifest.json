@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-haikus/static/css/main.a537f852.chunk.css",
+    "main.js": "/react-haikus/static/js/main.3639465e.chunk.js",
+    "main.js.map": "/react-haikus/static/js/main.3639465e.chunk.js.map",
+    "runtime-main.js": "/react-haikus/static/js/runtime-main.ce183400.js",
+    "runtime-main.js.map": "/react-haikus/static/js/runtime-main.ce183400.js.map",
+    "static/js/2.59263ac5.chunk.js": "/react-haikus/static/js/2.59263ac5.chunk.js",
+    "static/js/2.59263ac5.chunk.js.map": "/react-haikus/static/js/2.59263ac5.chunk.js.map",
+    "index.html": "/react-haikus/index.html",
+    "static/css/main.a537f852.chunk.css.map": "/react-haikus/static/css/main.a537f852.chunk.css.map",
+    "static/js/2.59263ac5.chunk.js.LICENSE.txt": "/react-haikus/static/js/2.59263ac5.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ce183400.js",
+    "static/js/2.59263ac5.chunk.js",
+    "static/css/main.a537f852.chunk.css",
+    "static/js/main.3639465e.chunk.js"
+  ]
+}
